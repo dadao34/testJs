@@ -22,17 +22,44 @@ body{
  display: flex;
 }
 
-.leftBlock{
-    height: 100vh;
-    border: #262626;
-    border-style: solid;
-    width: 30%;
-}
+    .leftBlock{
+        height: 90vh;
+        border: #262626;
+        border-style: solid;
+        /* border-width: 1px; */
+        width: 30%;
+        flex-direction: column;
+    }
 
-.rightBlock{
-    height: 100vh;
-    border: #262626;
-    border-style: solid;
-    width: 100%;
+        .itemL{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-}
+        .btn {
+            -webkit-border-radius: 5;
+            -moz-border-radius: 5;
+            border-radius: 5px;
+            font-family: Courier New;
+            color: #000000;
+            font-size: 20px;
+            background: #595959;
+            padding: 3% 40% 3% 5%;
+            margin : 5%;
+            border-style: none;
+        }
+        
+        /* .btn:hover {
+        background: #737373;
+        }    */
+
+
+    .rightBlock{
+        height: 90vh;
+        border: #262626;
+        border-style: solid;
+        width: 100%;
+
+    }
